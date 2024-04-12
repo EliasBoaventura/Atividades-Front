@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #4b8bc3, #488f8a, #0000001b);
+    color: white;
+}
+
+.Perfil {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.PerfilImagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.iconeTexto {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.meu-acordeon .accordion-button {
+    background-color: #488f8a;
+    color: #fff;
+}
+
+.meu-acordeon .accordion-button:hover {
+    background: white;
+    color: #488f8a;
+}
+
+.meu-acordeon .accordion-body {
+    color: #488f8a;
+    background: #ffff;
+
+}
